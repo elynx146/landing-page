@@ -1,0 +1,36 @@
+header{
+    display:flex;
+    background-color: navy;
+    color:white;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+header ul{
+    display:flex;
+    padding:0;
+    list-style-type: none;
+    margin-left: auto;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-around;
+}
+
+.placeholder-grey{
+    flex-basis: 300px;
+    flex-shrink: 0;
+    height: 100px;
+    padding: 100px;
+    background-color: lightgrey;
+    color:white;
+}
+
+.intro{
+    flex-basis: 300px;
+
+}
