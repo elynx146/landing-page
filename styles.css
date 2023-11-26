@@ -20,6 +20,8 @@ header ul{
     margin-right: 30px;
 }
 
+li{margin:20px;}
+
 .heading{
     display: flex;
     justify-content: space-between;
@@ -44,19 +46,59 @@ header ul{
 
 .infobox div{
     border-style: solid;
-    width:75px;
+    width:110px;
     height:75px;
 }
 
 .infobox{
-    width:90px;
+    width:120px;
     flex-shrink: 0;
+    margin:30px;
 }
 
 .boxes{display: flex;
-justify-content: space-around;}
+justify-content: center;}
 
 .info-heading{
    display: flex;
    justify-content: center;
 }
+
+.quote{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 400px;
+    font-size: 20px;
+    font-style: italic;
+    background-color: lightgray;
+    color:darkgray;
+    padding:50px;
+}
+
+.signup{
+    display:flex;
+    justify-content: center;
+    background-color: blue;
+    width:500px;
+    margin:50px auto;
+    padding:20px;
+}
+
+.signup div{
+    margin-right: auto;
+}
+
+.signup button{
+    margin-left: auto;
+}
+
+footer{
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+
+body{margin:0px;}
