@@ -1,7 +1,7 @@
 header{
     display:flex;
-    background-color: navy;
-    color:white;
+    background-color: #1F2937;
+    color:#F9FAF8;
     justify-content: space-between;
     align-items: center;
     padding:30px;
@@ -9,7 +9,8 @@ header{
 
 .logo{
     margin-right: auto;
-    margin-left:30px;
+    margin-left:75px;
+    font-size: 24px;
 }
 
 header ul{
@@ -17,7 +18,7 @@ header ul{
     padding:0;
     list-style-type: none;
     margin-left: auto;
-    margin-right: 30px;
+    margin-right: 75px;
 }
 
 li{margin:20px;}
@@ -25,8 +26,9 @@ li{margin:20px;}
 .heading{
     display: flex;
     justify-content: space-between;
-    background-color: navy;
+    background-color: #1F2937;
     padding:30px;
+    color:#F9FAF8
 }
 
 .placeholder-grey{
@@ -36,18 +38,19 @@ li{margin:20px;}
     padding: 100px;
     background-color: lightgrey;
     color:white;
-    margin-right: 30px;
+    margin-right: 75px;
 }
 
 .intro{
     flex-basis: 300px;
-    margin-left: 30px;
+    margin-left: 75px;
 }
 
 .infobox div{
     border-style: solid;
     width:110px;
     height:75px;
+    border-radius: 25px;
 }
 
 .infobox{
@@ -62,6 +65,9 @@ justify-content: center;}
 .info-heading{
    display: flex;
    justify-content: center;
+   font-size:36px;
+   font-weight:bolder;
+   color:#1F2937
 }
 
 .quote{
@@ -69,28 +75,40 @@ justify-content: center;}
     justify-content: center;
     align-items: center;
     flex-basis: 400px;
-    font-size: 20px;
+    font-size: 36px;
     font-style: italic;
-    background-color: lightgray;
-    color:darkgray;
+    font-weight: lighter;
+    background-color: #E5E7EB;
+    color:#1F2937;
     padding:50px;
 }
 
 .signup{
     display:flex;
     justify-content: center;
-    background-color: blue;
-    width:500px;
+    align-items: center;
+    background-color: #3882F6;
+    width:700px;
     margin:50px auto;
     padding:20px;
+    border-radius: 25px;
+
 }
 
 .signup div{
     margin-right: auto;
+    color:#F9FAF8;
 }
 
-.signup button{
+button{
     margin-left: auto;
+    color:#F9FAF8;
+    height:40px;
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 25px;
+    padding:5px 10px;
 }
 
 footer{
